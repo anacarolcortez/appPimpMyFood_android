@@ -4,3 +4,5 @@ App nativo em Kotlin e Android Studio. Receitas que ensinam a reaproveitar todas
 ![Img](https://i.imgur.com/w5AWttN.png)
 <br/>
 ![Img](https://i.imgur.com/MWjysEK.png)
+<br/>
+![Img](https://i.imgur.com/jPpCQzO.png)
