@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pimp My Food</string>
+    <string name="menuPesquisar">Pesquisar</string>
+    <string name="menuAdicionar">Adicionar receita</string>
+</resources>

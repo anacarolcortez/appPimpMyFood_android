@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceitaDetail"
+    android:orientation="vertical"
+    android:background="@color/pagebackground">
+
+    <ImageView
+        android:id="@+id/photoDetail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/titleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título da Receita"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="7dp"/>
+
+    <TextView
+        android:id="@+id/titleIngredientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ingredientsDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui vão os ingredientes da receita"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/titlePreparo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modo de preparo"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/preaprationDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui vai o modo de preparo da receita"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/authorDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor da receita"
+        android:textSize="12sp"
+        android:layout_gravity="start"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
